@@ -10,19 +10,40 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        VStack(alignment: .leading) {
-            Text("Masorini Archaeological Site")
-                .font(.title)
-//                .frame(minWidth: 200, idealWidth: 300, maxWidth: .infinity)
+        VStack {
+            // Map
+            MapView()
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
             
-            HStack {
-                Text("Kruger National Park")
-                    .font(.subheadline)
-                Spacer()
-                Text("South Africa")
-                    .font(.subheadline)
-            }
-        }.padding()
+            // Image
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("Masorini Archaeological Site")
+                    .font(.title)
+    //                .frame(minWidth: 200, idealWidth: 300, maxWidth: .infinity)
+                
+                HStack {
+                    Text("Kruger National Park")
+                    Spacer()
+                    Text("South Africa")
+                }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                
+                Divider()
+                
+                Text("About Masorini Archaeological Site")
+                    .font(.title2)
+                Text("In the shock waves following the rise of the Zulu kingdom early in the 19thCentury, Masorini ended as a settlement.")
+                
+            }.padding()
+            
+            Spacer()
+        }
         
     }
 }

@@ -13,7 +13,7 @@ struct ContentView: View {
         VStack(alignment: .leading) {
             Text("Masorini Archaeological Site")
                 .font(.title)
-                .frame(width: 300)
+//                .frame(minWidth: 200, idealWidth: 300, maxWidth: .infinity)
             
             HStack {
                 Text("Kruger National Park")

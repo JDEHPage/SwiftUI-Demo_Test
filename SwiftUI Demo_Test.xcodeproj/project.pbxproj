@@ -14,6 +14,7 @@
 		4855C6E125AF43CC00C980CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4855C6E025AF43CC00C980CA /* Preview Assets.xcassets */; };
 		4855C6E425AF43CC00C980CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4855C6E225AF43CC00C980CA /* LaunchScreen.storyboard */; };
 		4855C6ED25AF563600C980CA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4855C6EC25AF563600C980CA /* CircleImage.swift */; };
+		4855C6F825AF7D3500C980CA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4855C6F725AF7D3500C980CA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4855C6E325AF43CC00C980CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4855C6E525AF43CC00C980CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4855C6EC25AF563600C980CA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4855C6F725AF7D3500C980CA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4855C6E525AF43CC00C980CA /* Info.plist */,
 				4855C6DF25AF43CC00C980CA /* Preview Content */,
 				4855C6EC25AF563600C980CA /* CircleImage.swift */,
+				4855C6F725AF7D3500C980CA /* MapView.swift */,
 			);
 			path = "SwiftUI Demo_Test";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				4855C6D825AF43C900C980CA /* AppDelegate.swift in Sources */,
 				4855C6ED25AF563600C980CA /* CircleImage.swift in Sources */,
+				4855C6F825AF7D3500C980CA /* MapView.swift in Sources */,
 				4855C6DA25AF43C900C980CA /* SceneDelegate.swift in Sources */,
 				4855C6DC25AF43C900C980CA /* ContentView.swift in Sources */,
 			);
